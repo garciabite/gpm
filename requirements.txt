@@ -1,0 +1,5 @@
+matplotlib==3.8.4
+pandas==3.0.0
+plotly==5.23.0
+streamlit==1.54.0
+~treamlit==1.38.0
