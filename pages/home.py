@@ -56,7 +56,7 @@ with slide_container.container():
             aplicacao()
 
 # A parte que faz ele "rodar"
-time.sleep(3)  # Espera 3 segundos
+time.sleep(10)  # Espera 10 segundos
 st.session_state.slide_index = (st.session_state.slide_index + 1) % 3
 st.rerun()
 
@@ -64,5 +64,6 @@ st.rerun()
 separador()
 st.image("assets/simulacao.gif", width="stretch")
 barra()
+
 
 
