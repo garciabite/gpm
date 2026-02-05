@@ -1,8 +1,11 @@
-matplotlib>=3.8
+streamlit
+altair==4.2.2
 pandas>=2.0
-plotly>=5.22
-openpyxl>=3.1
 numpy>=1.24
+plotly>=5.22
+matplotlib>=3.8
+openpyxl>=3.1
+
 
 
 
