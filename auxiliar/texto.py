@@ -48,9 +48,9 @@ def texto_mapa():
     <span style="color:#ED8232;"><b>TCM Mebrafe pelo mundo...</b></span>
 
     <p style="font-size:50px;">
-    <br>+ 36 cidades
-    <br>+ 44 TCM desenvolvidos e implementados
-    <br>+ 4,2 milhões de toneladas  de congelados / ano
+    <br>+ 50 cidades
+    <br>+ 50 TCM desenvolvidos e implementados
+    <br>+ 4,2* milhões de toneladas  de congelados / ano
     </p>
     <p style="font-size:50px;">
     <span style="color:#2A6AAE;">TCM Mebrafe representa *14% de toda a produção nacional.</span>
@@ -92,3 +92,4 @@ def formato_resumo(label, value):
         {label}: <span style="color:white;">{value}</span>
     </p>
     """
+
