@@ -43,7 +43,9 @@ with coluna4:                                                                   
     mapa()                                                                                                      # Exibe o mapa em 3D na segunda coluna.
 
 separador()                                                                                                     # Chama a função que cria uma linha de separação na página.
+st.video(r"assets/mebrafe.mp4", loop=True, autoplay=True, muted=True, width="stretch") 
 
+separador() 
 coluna5, coluna6 = st.columns(2)                                                                                # Parametro para criar duas colunas
 
 with coluna5:
@@ -54,8 +56,7 @@ with coluna6:
 
 separador()                                                                                                     # Chama a função que cria uma linha de separação na página.
 
-st.image(r"assets/simulacao.gif", caption="", width="stretch")                                                      # Adicona a logomarca.
+#st.image(r"assets/simulacao.gif", caption="", width="stretch")                                                      # Adicona a logomarca.
+                           # Exibe o video abaixo do GIF em loop ao abrir a página.
 
-barra()                                                                                                         # Insere a barra lateral na página, usando a função barra importada do módulo lateral.
-
-
+barra()                                      
